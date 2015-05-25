@@ -1,0 +1,27 @@
+{
+    "contentdir": "content",
+    "layoutdir": "layouts",
+    "publishdir": "public",
+
+    "builddrafts": false,
+    "theme": "svi",
+
+    "baseurl": "http://sorenvind.dk/",
+    "canonifyurls": true,
+    "permalinks": {
+        "post": ":year/:month/:day/:title/",
+        "fixed": ":title/",
+        "paper": "papers/:title"
+    },
+
+    "params": {
+        "Title": "sorenvind.dk",
+        "Tagline": "",
+        "Author": "Soren Vind",
+        "DateForm": "02 Jan 2006",
+        "Github": {
+            "Url": "http://github.com/sorenvind/hugo-svi",
+            "Head": "master"
+        }
+    }
+}
