@@ -6,7 +6,7 @@
     "builddrafts": false,
     "theme": "svi",
 
-    "baseurl": "https://sorenvind.dk/",
+    "baseurl": "http://sorenvind.dk/",
     "canonifyurls": true,
     "permalinks": {
         "post": ":year/:month/:day/:title/",
