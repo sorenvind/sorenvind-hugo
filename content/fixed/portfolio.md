@@ -24,7 +24,7 @@ More than 10 years of experience in developing web services in various languages
 Five years of operations experience at [Octoshape](http://www.octoshape.com/), in charge of all aspects of IT infrastructure. In particular operating, building and scaling core infrastructure consisting of hundreds of globally hosted dedicated linux servers running core services.
 
 ### var
-(Co-)founder and head of technology for several start-ups, namely [peecee.dk](http://peecee.dk), [lokalvurdering.dk](http://lokalvurdering.dk) and [ruumier.com](http:/ruumier.com). Volunteer network administrator and board member.
+(Co-)founder and head of technology for several start-ups, namely [peecee.dk](http://peecee.dk), [lokalvurdering.dk](http://lokalvurdering.dk) and [ruumier.com](http://ruumier.com). Volunteer network administrator and board member.
 
 
 ## Misc
