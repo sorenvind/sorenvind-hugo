@@ -1,0 +1,13 @@
+{{ partial "default_head.html" . }}
+
+{{ range .Data.Pages }}
+  {{ if isset .Params "ishome" }}
+    <div class="page">
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  {{ end }}
+{{ end }}
+
+
+{{ partial "default_foot.html" . }}

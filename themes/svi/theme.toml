@@ -1,0 +1,15 @@
+name = "svi"
+license = "MIT"
+licenselink = "https://github.com/tummychow/lanyon-hugo/blob/master/LICENSE.md"
+description = "Adaptation and modification of theme Lanyon-Hugo"
+tags = ["tags"]
+features = ["blog", "portfolio", "about", "landing"]
+min_version = 0.12
+
+[author]
+    name = "tummychow"
+
+[original]
+    author =  "mdo"
+    homepage = "https://github.com/poole/lanyon"
+    repo = "https://github.com/poole/lanyon"

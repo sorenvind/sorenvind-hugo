@@ -1,0 +1,29 @@
+<div class="navbar-spacer"></div>
+<nav class="navbar">
+  <div class="container">
+    <div class="row">
+        <div class="ten columns offset-by-one">
+          <ul class="navbar-list">
+            <li class="navbar-item"><a class="navbar-link {{ if eq .Url "/" }} active {{ end }}" href="/">{{ .Site.Params.Title }}</a></li>
+            <!--li class="navbar-item"><a class="navbar-link {{ if eq .Url "post" }} active {{ end }}" href="/post">Posts</a></li-->
+            {{ $thisperma := .Permalink }}
+            {{ range .Site.Pages.ByWeight }}
+            {{ if isset .Params "sidebar" }}
+            <li class="navbar-item"><a class="navbar-link {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+            {{ end }}
+            <li class="navbar-social">
+              <div class="social">
+                <a href="https://linkedin.com/in/sorenvind" alt="linkedin.com/in/sorenvind"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://twitter.com/sorenvind" alt="twitter.com/sorenvind"><i class="fa fa-twitter-square"></i></a> 
+                <a href="http://facebook.com/sorenvind" alt="facebook.com/sorenvind"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://github.com/sorenvind/" alt="github.com/sorenvind"><i class="fa fa-github-square"></i></a>
+                <a href="mailto:soren@sorenvind.dk"><i class="fa fa-envelope-square"></i></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

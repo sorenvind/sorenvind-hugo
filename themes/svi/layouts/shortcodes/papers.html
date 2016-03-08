@@ -1,0 +1,34 @@
+<div class="papers">
+<ul>
+    {{ range .Page.Site.Pages }}
+    {{ if eq .Type "paper" }}
+    <li>
+        <!-- Context -->
+        <span class="title">{{ .Title }}</span>
+        
+        <!-- Places -->
+        <span class="links">
+        {{with .Params.conference}}[<a href="{{ .link }}">{{ .name }}</a>]{{end}}
+        {{with .Params.journal}}[<a href="{{ .link }}">{{ .name }}</a>]{{end}}
+        {{with .Params.arxiv}}[<a href="{{ . }}">arxiv</a>]{{end}}
+        </span>
+        
+        <span class="authors">
+        <!-- Oxford Serial Comma for authors -->
+        {{ $lastIndex := sub (len .Params.authors) 1 }}
+        with
+        {{ range $index, $author := .Params.authors }}
+            {{if ge $index $lastIndex}}
+                {{if $index}} and {{end}}
+                {{if .website}}<a href="{{ .website }}">{{ .name }}</a>{{else}}{{ .name }}{{end}}.
+            {{else}}
+                {{if .website}}<a href="{{ .website }}">{{ .name }}</a>{{else}}{{ .name }}{{end}}{{if lt 1 $lastIndex}},{{end}}
+            {{end}}
+        {{end}}
+        </span>
+
+    </li>
+    {{ end }}
+    {{ end }}
+</ul>
+</div>

@@ -1,0 +1,220 @@
+/*
+gray:  #555555
+green: #82ba55
+blue:  #306ab4
+red:   #dd5200
+*/
+
+html {
+  font-size: 11px;
+}
+body {
+  padding-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+h3, h4, h5, h6 {
+  margin-top: 0rem;
+  margin-bottom: 0;
+  float: left;
+  margin-right: 2rem;
+  text-transform: lowercase;
+  font-weight: 800;
+}
+h3 {
+  color: #dd5200;
+  font-size: 3rem;
+}
+h4 {
+  color: #82ba55;
+  font-size: 2.6rem;
+}
+h5 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #306ab4;
+}
+.social a {
+  color: #aaa;
+}
+.social a:hover {
+  color: #666;
+}
+
+.papers {
+  border-left: 10px solid #555;
+  padding-left: 30px;
+  font-size: 1.4rem;
+}
+.papers .title {
+  font-weight: 800;
+  font-style: italic;
+}
+.papers .authors {
+  display: block;
+}
+.papers .links {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.papers li {
+  list-style: none;
+}
+
+.home-social {
+    margin: 50px;
+    text-align: center;
+}
+.home-social a:link {
+    margin-right: 10px;
+    vertical-align: center;
+    font-weight: 300;
+    font-size: 12px;
+}
+.handwritten {
+	font-size: 34px; /** Must be set quite large to make reading possible **/
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Navbar */
+.navbar + .docs-section {
+  border-top-width: 0; }
+.navbar,
+.navbar-spacer {
+  display: block;
+  width: 100%;
+  background: #fff;
+  z-index: 99;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 4rem; }
+.navbar-spacer {
+  display: none; }
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0; }
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0; }
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 20px;
+  text-decoration: none;
+  line-height: 6rem;
+  color: #222; }
+.navbar-link.active {
+  color: #33C3F0; }
+
+.navbar-social {
+  position: relative;
+  float: right;
+  margin-bottom: 0;
+  text-align: right;
+ }
+.navbar-social a {
+  line-height: 6rem;
+}
+
+
+@media (max-width: 650px) {
+  .navbar-item, .navbar-social {
+    float: none;
+    text-align: left;
+  }
+  .navbar-link, .navbar-social a {
+    line-height: 2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* Popover */
+.popover.open {
+  display: block;
+}
+.popover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  top: 92%;
+  left: -50%;
+  -webkit-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+     -moz-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
+          filter: drop-shadow(0 0 6px rgba(0,0,0,.1)); }
+.popover-item:first-child .popover-link:after,
+.popover-item:first-child .popover-link:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+.popover-item:first-child .popover-link:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 10px;
+  margin-left: -10px; }
+.popover-item:first-child .popover-link:before {
+  border-color: rgba(238, 238, 238, 0);
+  border-bottom-color: #eee;
+  border-width: 11px;
+  margin-left: -11px; }
+.popover-list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+.popover-item {
+  padding: 0;
+  margin: 0; }
+.popover-link {
+  position: relative;
+  color: #222;
+  display: block;
+  padding: 8px 20px;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.0rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .1rem; }
+.popover-item:first-child .popover-link {
+  border-radius: 4px 4px 0 0; }
+.popover-item:last-child .popover-link {
+  border-radius: 0 0 4px 4px;
+  border-bottom-width: 0; }
+.popover-link:hover {
+  color: #fff;
+  background: #33C3F0; }
+.popover-link:hover,
+.popover-item:first-child .popover-link:hover:after {
+  border-bottom-color: #33C3F0; }
+
+
+figure.headshot {
+  float: right;
+  margin-right: 0;
+}
+figure.headshot img {
+  width: 250px;
+  border-radius: 10px;
+}
