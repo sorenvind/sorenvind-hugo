@@ -19,7 +19,7 @@ weight = ""
   website = "http://hwv.dk/"
 
 [conference]
-  link = ""
+  link = "http://link.springer.com/chapter/10.1007%2F978-3-642-31155-0_25"
   name = "SWAT 2012"
 
 [journal]
@@ -30,7 +30,7 @@ weight = ""
 
 We consider the problem of indexing a string $t$ of length $n$ to report the occurrences of a query pattern $p$ containing $m$ characters and $j$ wildcards. Let $occ$ be the number of occurrences of $p$ in $t$, and $\sigma$ the size of the alphabet. We obtain the following results.
 
-* A linear space index with query time $O(m+\sigma^j \log \log n + occ)$. 
+* A linear space index with query time $O(m+\sigma^j \log \log n + occ)$.
 This significantly improves the previously best known linear space index by Lam et al. [ISAAC 2007], which requires query time $\Theta(jn)$ in the worst case.
 * An index with query time $O(m+j+occ)$ using space $O(\sigma^{k^2} n \log^k \log n)$, where $k$ is the maximum number of wildcards allowed in the pattern. This is the first non-trivial bound with this query time.
 * A time-space trade-off, generalizing the index by Cole et al. [STOC 2004].

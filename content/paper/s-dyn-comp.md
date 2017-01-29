@@ -26,5 +26,8 @@ weight = ""
   name = "Hjalte Wedel Vildhøj"
   website = "http://hwv.dk/"
 
-+++
+[conference]
+  link = "http://drops.dagstuhl.de/opus/volltexte/2016/6787/pdf/LIPIcs-ISAAC-2016-18.pdf"
+  name = "ISAAC 2016"
 
++++

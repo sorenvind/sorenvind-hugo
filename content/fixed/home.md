@@ -10,7 +10,7 @@ ishome = "yes"
 I'm a [full-stack software engineer]({{< ref "fixed/portfolio.md" >}}) from Copenhagen, Denmark with a [PhD in Computer Science]({{< ref "fixed/academia.md" >}}) (Algorithms & Data Structures research) from the Technical University of Denmark.
 
 You can get me excited about almost all areas of computer science, in particular algorithms, architecture, distributed systems and security.
-I'm curious and love to create. I like challenges and excel at solving complex problems in simple ways.
+I'm curious and love to create. I like challenges and excel at solving complex problems in simple ways, preferably in a small team.
 
 <p class="handwritten">Søren</p>
 

@@ -21,14 +21,18 @@ weight = ""
 [[authors]]
   name = "Benjamin Sach"
   website = "http://www.cs.bris.ac.uk/~sach/"
-  
+
 [[authors]]
   name = "Hjalte Wedel Vildhøj"
   website = "http://hwv.dk/"
 
 [conference]
-  link = ""
+  link = "http://link.springer.com/chapter/10.1007/978-3-642-40104-6_13"
   name = "WADS 2013"
+
+[journal]
+  link = "http://dx.doi.org/10.1016/j.jcss.2017.01.002"
+  name = "Journal of Computer and System Sciences"
 
 +++
 

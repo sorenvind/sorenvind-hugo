@@ -4,11 +4,12 @@
     <div class="row">
         <div class="ten columns offset-by-one">
           <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link {{ if eq .URL "/" }} active {{ end }}" href="/">{{ .Site.Params.Title }}</a></li>
+            <li class="navbar-item"><a class="navbar-link {{ if eq .Url "/" }} active {{ end }}" href="/">{{ .Site.Params.Title }}</a></li>
+            <!--li class="navbar-item"><a class="navbar-link {{ if eq .Url "post" }} active {{ end }}" href="/post">Posts</a></li-->
             {{ $thisperma := .Permalink }}
             {{ range .Site.Pages.ByWeight }}
             {{ if isset .Params "sidebar" }}
-              <li class="navbar-item"><a class="navbar-link {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            <li class="navbar-item"><a class="navbar-link {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
             {{ end }}
             <li class="navbar-social">
