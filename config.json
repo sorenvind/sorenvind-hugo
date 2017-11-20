@@ -2,10 +2,8 @@
     "contentdir": "content",
     "layoutdir": "layouts",
     "publishdir": "public",
-
     "builddrafts": false,
     "theme": "svi",
-
     "baseurl": "http://sorenvind.dk/",
     "canonifyurls": true,
     "permalinks": {
@@ -13,9 +11,8 @@
         "fixed": ":title/",
         "paper": "papers/:title"
     },
-
     "params": {
-        "Title": "sorenvind.dk",
+        "Title": "sorenvind",
         "Tagline": "",
         "Author": "Søren Vind",
         "DateForm": "02 Jan 2006",
