@@ -30,4 +30,8 @@ weight = ""
   link = "http://drops.dagstuhl.de/opus/volltexte/2016/6787/pdf/LIPIcs-ISAAC-2016-18.pdf"
   name = "ISAAC 2016"
 
+[journal]
+  link = "https://link.springer.com/article/10.1007/s00453-017-0380-7"
+  name = "Algorithmica"
+
 +++

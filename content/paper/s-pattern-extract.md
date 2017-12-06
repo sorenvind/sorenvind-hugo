@@ -3,7 +3,7 @@ arxiv = ""
 date = "2014-12-01"
 description = ""
 tags = ["paper", "research"]
-title = "Output-Sensitive Pattern Extraction in Sequences"
+title = "Motif Trie: An Efficient Text Index for Pattern Discovery with Don't Cares"
 weight = ""
 
 [[authors]]
@@ -24,6 +24,10 @@ weight = ""
 [conference]
   link = "http://drops.dagstuhl.de/opus/volltexte/2014/4851/pdf/27.pdf"
   name = "FSTTCS 2014"
+
+[journal]
+  link = "http://www.sciencedirect.com/science/article/pii/S0304397517303523"
+  name = "Theoretical Computer Science"
 
 +++
 
